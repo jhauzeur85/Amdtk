@@ -5099,7 +5099,7 @@ kbd {
 }
 
 .padding-top-3x {
-    padding-top: 72px !important
+    padding-top: 20px !important
 }
 
 .padding-bottom {
@@ -5278,6 +5278,12 @@ h1 {
     text-transform: none
 }
 
+@media only screen and (max-width: 768px){
+	.min{
+		padding-top: -10px;
+	}
+}
+
 h2 {
     font-size: 48px;
     font-weight: 600;
@@ -5297,6 +5303,12 @@ h4 {
     font-weight: 600;
     font-style: normal;
     text-transform: none
+}
+
+@media only screen and (max-width: 768px){
+	h4{
+		font-size: 16px;
+	}
 }
 
 h5 {
@@ -5474,7 +5486,7 @@ a.text-success:hover {
 }
 
 a.text-info:hover {
-    color: #2fa0ff
+    color: #890808
 }
 
 .text-warning {
@@ -5507,7 +5519,7 @@ a.text-danger:hover {
 }
 
 a.bg-default:hover {
-    background-color: #0e7cd8
+    background-color: #890808
 }
 
 .bg-primary {
@@ -5531,7 +5543,7 @@ a.bg-success:hover {
 }
 
 a.bg-info:hover {
-    background-color: #2fa0ff
+    background-color: #890808
 }
 
 .bg-warning {
@@ -6762,7 +6774,7 @@ table>tbody+tbody {
 }
 
 .btn:hover {
-    background-color: #0e7cd8
+    background-color: #890808
 }
 
 .btn:hover {
@@ -6838,7 +6850,7 @@ fieldset[disabled] a.btn {
 }
 
 .btn-default:hover {
-    background-color: #0e7cd8
+    background-color: #890808
 }
 
 .btn-primary {
@@ -6862,7 +6874,7 @@ fieldset[disabled] a.btn {
 }
 
 .btn-info:hover {
-    background-color: #2fa0ff
+    background-color: #890808
 }
 
 .btn-warning {
@@ -7172,7 +7184,7 @@ input[type="button"].btn-block {
 }
 
 .btn-3d.btn-default:hover {
-    background-color: #1089ef
+    background-color: #890808
 }
 
 .btn-3d.btn-default:active {
@@ -7195,8 +7207,8 @@ input[type="button"].btn-block {
 }
 
 .btn-3d.btn-info {
-    -webkit-box-shadow: 0px 4px 0px #1b96ff;
-    box-shadow: 0px 4px 0px #1b96ff
+    -webkit-box-shadow: 0px 4px 0px #890808;
+    box-shadow: 0px 4px 0px #890808
 }
 
 .btn-3d.btn-info:hover {
@@ -7204,8 +7216,8 @@ input[type="button"].btn-block {
 }
 
 .btn-3d.btn-info:active {
-    -webkit-box-shadow: 0px 0px 0px #1b96ff;
-    box-shadow: 0px 0px 0px #1b96ff
+    -webkit-box-shadow: 0px 0px 0px #890808;
+    box-shadow: 0px 0px 0px #890808
 }
 
 .btn-3d.btn-success {
@@ -10266,7 +10278,7 @@ a.image-box {
 
 .video-popup-btn .play-btn:hover,
 .video-popup-tile .play-btn:hover {
-    background-color: #0e7cd8
+    background-color: #890808
 }
 
 .video-popup-btn.small-btn .play-btn,
@@ -12097,13 +12109,13 @@ a.image-box {
 .widget_tag_cloud a:hover,
 .tags-links a:hover,
 .shop-label:hover {
-    background-color: #0e7cd8
+    background-color: #890808
 }
 
 .widget_tag_cloud a:hover:before,
 .tags-links a:hover:before,
 .shop-label:hover:before {
-    border-left-color: #0e7cd8
+    border-left-color: #890808
 }
 
 .widget_shop_totals .total {
@@ -12996,7 +13008,7 @@ a.image-box {
 
 .owl-carousel .owl-controls .owl-nav .owl-prev:hover,
 .owl-carousel .owl-controls .owl-nav .owl-next:hover {
-    background-color: #0e7cd8
+    background-color: #890808
 }
 
 .owl-carousel .owl-controls .owl-nav .owl-prev {
@@ -13717,7 +13729,7 @@ screen and (max-height: 300px) {
 
 .ms-skin-default .ms-nav-next:hover,
 .ms-skin-default .ms-nav-prev:hover {
-    background-color: #0e7cd8
+    background-color: #890808
 }
 
 .ms-skin-default .ms-nav-prev {
