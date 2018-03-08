@@ -232,12 +232,12 @@
 
     <!-- Intro Section -->
     <!-- Fullwidth section has bunch of modifier classes to alter its appearance: ".border-top, .border-bottom, .arrow-top, .arrow-bottom, .bg-gray, .bg-default, .bg-primary, .bg-parallax". They can be used separately or alltogether. -->
-    <section class="fw-section bg-parallax text-center" style="background-image: url(img/home/product-bg01.jpg);" data-stellar-background-ratio="0.65">
+    <section class="fw-section bg-parallax text-center">
       <div class="container padding-top-3x padding-bottom">
         <img src="img/home/pebble01b.png" class="block-center scrollReveal sr-scaleUp sr-delay-1 sr-ease-in-out-back" alt="Pebble Time">
         <div class="scrollReveal sr-bottom sr-ease-in-out-back">
-          <h1 style="color:#fff;" class="min"><b>AMDTK</b></h1>
-          <h4 class="text-normal min" style="color:#fff;">Importadores y distribuidores de equipos eletromédicos para toda Colombia</h4>
+          <h1 class="min"><b>AMD TK</b></h1>
+          <h4 class="text-normal min">Importadores y distribuidores de equipos eletromédicos para toda Colombia</h4>
           <div class="text-center padding-top padding-bottom-1x">
           </div>
         </div>
@@ -250,7 +250,7 @@
 
     <!-- From The Shop -->
     <!-- Fullwidth section has bunch of modifier classes to alter its appearance: ".border-top, .border-bottom, .arrow-top, .arrow-bottom, .bg-gray, .bg-default, .bg-primary, .bg-parallax". They can be used separately or alltogether. -->
-    <section class="fw-section bg-parallax next-to-footer padding-top-3x padding-bottom-3x" style="background-image: url(img/home/watch-shop-bg.jpg);" data-stellar-background-ratio="0.65">
+    <section class="fw-section bg-parallax next-to-footer padding-top-3x padding-bottom-3x" style="background-color: #f9f9f9;">
       <span class="overlay overlay-light" style="opacity: .51;"></span>
       <div class="container padding-top">
         <h2 class="block-title text-center">
@@ -514,7 +514,33 @@
     <section class="container padding-top-2x">
       <div class="row">
         <div class="col-sm-6 scrollReveal sr-left">
-          <img src="img/home/pebble05.jpg" class="block-center" alt="Pebble Time">
+          <!-- <img src="img/home/pebble05.jpg" class="block-center" alt="Pebble Time"> -->
+          <!-- slideer -->
+            <div class="w3-content w3-display-container" style="padding-top: 20%;">
+              <img class="mySlides" src="img/analizador/analizador01.jpg">
+              <img class="mySlides" src="img/analizador/analizador02.jpg">
+              <img class="mySlides" src="img/analizador/analizador03.jpg">
+              <img class="mySlides" src="img/analizador/analizador04.jpg">
+              <img class="mySlides" src="img/analizador/analizador05.jpg">
+            </div>
+
+            <script>
+            var slideIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > x.length) {slideIndex = 1}
+                x[slideIndex-1].style.display = "block";
+                setTimeout(carousel, 5000); // Change image every 2 seconds
+            }
+            </script>
+          <!-- /slideer -->
         </div>
         <div class="col-md-5 col-sm-6 padding-top-2x text-center scrollReveal sr-right">
           <div class="padding-top visible-lg"></div>
@@ -536,6 +562,7 @@
     </section><!-- .container -->
 
     <!-- Features -->
+    <div style="background-color: #f9f9f9;">
     <section class="container padding-top-2x padding-bottom-3x">
       <h2 class="block-title text-center scrollReveal sr-bottom">
         Equipos electro-médicos
@@ -584,10 +611,11 @@
       </div><!-- .row -->
       <!-- <img src="img/home/pebble02b.jpg" alt="Pebble Time"> -->
     </section><!-- .container -->
+  </div>
 
     <!-- Features -->
     <!-- Fullwidth section has bunch of modifier classes to alter its appearance: ".border-top, .border-bottom, .arrow-top, .arrow-bottom, .bg-gray, .bg-default, .bg-primary, .bg-parallax". They can be used separately or alltogether. -->
-    <section class="fw-section overflow-hidden padding-top" style="background-color: #f9f9f9;">
+    <section class="fw-section overflow-hidden padding-top">
       <div class="container">
         <div class="row">
           
