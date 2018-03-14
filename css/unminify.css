@@ -9938,7 +9938,7 @@ a.box-with-icon {
 }
 
 .image-box .ib-text {
-    padding: 0 15px 48px
+    padding: 0 15px 0px
 }
 
 .image-box .ib-title {
@@ -14235,4 +14235,16 @@ body::before {
     .cd-vertical-nav {
         display: block
     }
+}
+
+.yellow {
+    color: #FEB14C;
+}
+
+.blue {
+    color: #72E2E8;
+}
+
+.brief {
+    color: #5E5E5E;
 }
