@@ -4980,7 +4980,7 @@ a {
     color: #000;
     font-weight: 600;
     text-decoration: none;
-    border-bottom: 1px dashed #ad0b0b;
+    /*border-bottom: 1px dashed #ad0b0b;*/
     -webkit-transition: color 0.3s;
     -o-transition: color 0.3s;
     transition: color 0.3s
@@ -5898,7 +5898,7 @@ input[type=url]:focus,
 input[type=time]:focus,
 input[type=tel]:focus,
 input[type=search]:focus {
-    background-color: #faffbd;
+    background-color: #ffc4ba;
     outline: none
 }
 
@@ -7160,7 +7160,9 @@ input[type="button"].btn-block {
 
 .scroll-to-top-btn.visible {
     bottom: 14px;
-    opacity: 1
+    opacity: 1;
+    left: 10px;
+
 }
 
 .btn-3d {
@@ -13971,7 +13973,7 @@ screen and (max-height: 300px) {
 }
 
 .footer .bottom-footer {
-    padding-top: 36px
+    padding-top: 0px
 }
 
 .footer .widget {

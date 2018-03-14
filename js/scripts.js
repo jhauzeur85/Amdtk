@@ -1,15 +1,4 @@
-/*
- * Nucleus Multi-Purpose Technology Template
- * Copyright 2016 8Guild.com
- * Theme Custom Scripts
- */
- /* ╔══╗╔═══╗╔╗╔╗╔══╗╔╗──╔══╗
-  	║╔╗║║╔══╝║║║║╚╗╔╝║║──║╔╗╚╗
-  	║╚╝║║║╔═╗║║║║─║║─║║──║║╚╗║
-  	║╔╗║║║╚╗║║║║║─║║─║║──║║─║║
-  	║╚╝║║╚═╝║║╚╝║╔╝╚╗║╚═╗║╚═╝║
-  	╚══╝╚═══╝╚══╝╚══╝╚══╝╚═══╝
-*/
+
 
 jQuery(document).ready(function($) {
 	'use strict';
