@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://(www\.)amdtk.com/tk2/software.html.*$ [NC]
+RewriteRule \.(gif|jpg|jpeg|bmp|zip|rar|mp3|flv|swf|xml|php|png|pdf)$ - [F]
+
+ RewriteEngine On
+
+RewriteCond %{HTTP_REFERER} !^http://(.+\.)?amdtk.com/tk2// [NC]
+
+RewriteCond %{HTTP_REFERER} !^$
+
+RewriteRule .*\.(jpe?g|gif|bmp|png)$ http://www.amdtk.com/tk2/advertencia.gif [L]

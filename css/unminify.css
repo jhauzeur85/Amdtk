@@ -14248,3 +14248,7 @@ body::before {
 .brief {
     color: #5E5E5E;
 }
+
+#pt-2 {
+    margin-bottom: 5px;
+}
