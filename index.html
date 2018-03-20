@@ -42,7 +42,8 @@
 
 <!-- Body -->
 <body class="is-preloader preloading parallax" id="home">
-  <div id="preloader" data-spinner="spinner1" data-screenbg="#fff"></div>
+  <div id="preloader" data-spinner="spinner1" data-screenbg="#fff">
+  </div>
   <!-- Page Wrapper -->
   <div class="page-wrapper">
     <!-- Navbar -->
@@ -104,10 +105,10 @@
     <!-- Fullwidth section has bunch of modifier classes to alter its appearance: ".border-top, .border-bottom, .arrow-top, .arrow-bottom, .bg-gray, .bg-default, .bg-primary, .bg-parallax". They can be used separately or alltogether. -->
     <section class="fw-section bg-parallax text-center"  style="padding-top: 10px;">
       <div class="container padding-top-3x padding-bottom">
-        <img src="img/home/pebble01b.png" class="block-center scrollReveal sr-scaleUp sr-delay-1 sr-ease-in-out-back" alt="Pebble Time">
+        <img src="img/home/pebble01b.png" class="block-center scrollReveal sr-scaleUp sr-delay-1 sr-ease-in-out-back padding-top-3x" alt="Pebble Time">
         <div class="scrollReveal sr-bottom sr-ease-in-out-back">
           <!-- <h1 class="min"><b>AMD TK</b></h1> -->
-          <h1 class="text-normal min" style="margin-top: 50px; font-size: 20px;">Importadores y distribuidores de equipos eletromédicos</h1>
+          <h1 class="text-normal min" style="margin-top: 50px; font-size: 20px;">Importadores y distribuidores de equipos electromédicos</h1>
           <div class="text-center padding-top padding-bottom-1x">
           </div>
         </div>
@@ -150,10 +151,18 @@
                       Ver más
                       <i class="fas fa-eye"></i>
                     </a>
-                    <a href="#" class="btn btn-sm btn-primary btn-icon-right waves-effect waves-light" id="pt-2">
+<!--                     <a href="#" class="btn btn-sm btn-primary btn-icon-right waves-effect waves-light" id="pt-2">
                       Comprar
                       <i class="icon-bag"></i>
-                    </a>
+                    </a> -->
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick" >
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form>
+
                   </div>
                 </div>
                 <h3 class="shop-title"><a href="#">Analizador cuántico</a></h3>
@@ -185,10 +194,13 @@
                       Ver más
                       <i class="fas fa-eye"></i>
                     </a>
-                    <a href="#" class="btn btn-sm btn-primary btn-icon-right waves-effect waves-light" id="pt-2">
-                      Comprar
-                      <i class="icon-bag"></i>
-                    </a>
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                    </form>
                   </div>
                 </div>
                 <h3 class="shop-title"><a href="#">Analizador cuantico con terapia TENS</a></h3>
@@ -213,21 +225,24 @@
                     </span>
                   </div>
                   <div class="column">
-                    <span class="price">$790</span>
+                    <span class="price">$790.000</span>
                   </div>
                   <div class="column">
                     <a href="desintoxicador.html" class="btn btn-sm btn-primary btn-icon-right waves-effect waves-light" id="pt-2">
                       Ver más
                       <i class="fas fa-eye"></i>
                     </a>
-                    <a href="#" class="btn btn-sm btn-primary btn-icon-right waves-effect waves-light" id="pt-2">
-                      Comprar
-                      <i class="icon-bag"></i>
-                    </a>
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                    </form>
                   </div>
                 </div>
                 <h3 class="shop-title"><a href="#">Desintoxicador</a></h3>
-                <p>Pebble Time helps you do more and do better. Packed with a color e-paper display, built-in microphone, and timeline interface.</p>
+                <p>Elimina las toxinas de los tejidos, siendo capaz de limpiar órganos como páncreas, riñón, hígado, pulmones, vejiga, aparato reproductor, entre otros.</p>
               </div>
             </div>
           </div>
@@ -255,10 +270,13 @@
                       Ver más
                       <i class="fas fa-eye"></i>
                     </a>
-                    <a href="#" class="btn btn-sm btn-primary btn-icon-right waves-effect waves-light" id="pt-2">
-                      Comprar
-                      <i class="icon-bag"></i>
-                    </a>
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                    </form>
                   </div>
                 </div>
                 <h3 class="shop-title"><a href="#">Tensiómetro</a></h3>
@@ -290,14 +308,17 @@
                       Ver más
                       <i class="fas fa-eye"></i>
                     </a>
-                    <a href="#" class="btn btn-sm btn-primary btn-icon-right waves-effect waves-light" id="pt-2">
-                      Comprar
-                      <i class="icon-bag"></i>
-                    </a>
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                    </form>
                   </div>
                 </div>
                 <h3 class="shop-title"><a href="#">Electromasajeador</a></h3>
-                <p>Pebble Time helps you do more and do better. Packed with a color e-paper display, built-in microphone, and timeline interface.</p>
+                <p>La electroestimulación es la técnica que utiliza la corriente eléctrica, para provocar una contracción muscular</p>
               </div>
             </div>
           </div>
